@@ -1,0 +1,202 @@
+[
+    {
+        "text": "i feel a bit rude for not sticking around for more than an hour or so",
+        "label": "anger"
+    },
+    {
+        "text": "i feel like a wider range of people are beginning to appreciate the romantic genre",
+        "label": "love"
+    },
+    {
+        "text": "i feel quite confident in my ability to handle this situation",
+        "label": "joy"
+    },
+    {
+        "text": "i feel like i am being tortured by the silence",
+        "label": "fear"
+    },
+    {
+        "text": "i feel very content with who i am right now",
+        "label": "joy"
+    },
+    {
+        "text": "i feel a bit cranky and neglected",
+        "label": "anger"
+    },
+    {
+        "text": "i feel so lonely and sad without you",
+        "label": "sadness"
+    },
+    {
+        "text": "i feel incredibly lucky to have found such a supportive group",
+        "label": "joy"
+    },
+    {
+        "text": "i feel agitated and restless",
+        "label": "anger"
+    },
+    {
+        "text": "i feel like i have been beaten by the system",
+        "label": "sadness"
+    },
+    {
+        "text": "i feel romantic and passionate",
+        "label": "love"
+    },
+    {
+        "text": "i feel terrified of the dark",
+        "label": "fear"
+    },
+    {
+        "text": "i feel amused by the situation",
+        "label": "joy"
+    },
+    {
+        "text": "i feel a strong sense of guilt",
+        "label": "sadness"
+    },
+    {
+        "text": "i feel like shouting at the top of my lungs",
+        "label": "anger"
+    },
+    {
+        "text": "i feel so helpless in this situation",
+        "label": "fear"
+    },
+    {
+        "text": "i feel proud of my achievements",
+        "label": "joy"
+    },
+    {
+        "text": "i feel unwanted and ignored",
+        "label": "sadness"
+    },
+    {
+        "text": "i feel brave enough to face my fears",
+        "label": "joy"
+    },
+    {
+        "text": "i feel like punching something",
+        "label": "anger"
+    },
+    {
+        "text": "i feel suspicious about his motives",
+        "label": "fear"
+    },
+    {
+        "text": "i feel overwhelmed by the workload",
+        "label": "fear"
+    },
+    {
+        "text": "i feel sweet and caring towards her",
+        "label": "love"
+    },
+    {
+        "text": "i feel gloomy and depressed",
+        "label": "sadness"
+    },
+    {
+        "text": "i feel excited about the upcoming trip",
+        "label": "joy"
+    },
+    {
+        "text": "i feel insulted by his remarks",
+        "label": "anger"
+    },
+    {
+        "text": "i feel vulnerable and exposed",
+        "label": "fear"
+    },
+    {
+        "text": "i feel ecstatic about the news",
+        "label": "joy"
+    },
+    {
+        "text": "i feel resentment building up inside me",
+        "label": "anger"
+    },
+    {
+        "text": "i feel devastated by the loss",
+        "label": "sadness"
+    },
+    {
+        "text": "i feel tender and affectionate",
+        "label": "love"
+    },
+    {
+        "text": "i feel insecure about my future",
+        "label": "fear"
+    },
+    {
+        "text": "i feel cheerful and optimistic",
+        "label": "joy"
+    },
+    {
+        "text": "i feel annoyed by the constant noise",
+        "label": "anger"
+    },
+    {
+        "text": "i feel heartbroken and empty",
+        "label": "sadness"
+    },
+    {
+        "text": "i feel delightful and charming",
+        "label": "joy"
+    },
+    {
+        "text": "i feel furious at the injustice",
+        "label": "anger"
+    },
+    {
+        "text": "i feel panic rising in my chest",
+        "label": "fear"
+    },
+    {
+        "text": "i feel passionate about my work",
+        "label": "love"
+    },
+    {
+        "text": "i feel miserable and down",
+        "label": "sadness"
+    },
+    {
+        "text": "i feel energetic and lively",
+        "label": "joy"
+    },
+    {
+        "text": "i feel hostile towards the new policies",
+        "label": "anger"
+    },
+    {
+        "text": "i feel anxious about the test results",
+        "label": "fear"
+    },
+    {
+        "text": "i feel adoration for my puppy",
+        "label": "love"
+    },
+    {
+        "text": "i feel melancholy on rainy days",
+        "label": "sadness"
+    },
+    {
+        "text": "i feel glad to see you",
+        "label": "joy"
+    },
+    {
+        "text": "i feel irritated by his behavior",
+        "label": "anger"
+    },
+    {
+        "text": "i feel scared of making a mistake",
+        "label": "fear"
+    },
+    {
+        "text": "i feel sentimental looking at old photos",
+        "label": "sadness"
+    },
+    {
+        "text": "i feel grateful for your help",
+        "label": "joy"
+    }
+]
