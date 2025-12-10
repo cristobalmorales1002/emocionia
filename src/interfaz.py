@@ -17,7 +17,7 @@ except ImportError as e:
         from src.predictor import EmotionPredictor
         print("Importación exitosa: src.predictor encontrado.")
     except ImportError:
-        print(f"❌ Error CRÍTICO: No se encuentra 'predictor.py'. \nDetalles: {e}")
+        print(f" Error CRÍTICO: No se encuentra 'predictor.py'. \nDetalles: {e}")
 
         class EmotionPredictor:
             def predecir(self, t): return "Error: Backend no encontrado"
@@ -29,10 +29,8 @@ class AplicacionEmociones:
         self.root.title("Clasificador Emocional - Avance 2")
         self.root.geometry("900x700")
         
-        # Instanciamos el predictor del backend
         self.predictor = EmotionPredictor()
         
-        # --- COLORES Y ESTILO ---
         self.bg_color = "#1E1E2E"       
         self.panel_color = "#282A36"    
         self.text_color = "#F8F8F2"     
@@ -43,7 +41,7 @@ class AplicacionEmociones:
         self.crear_widgets()
 
     def crear_widgets(self):
-        # titulo
+        
         tk.Label(self.root, text="Clasificador Emocional IA", 
                  font=("Roboto", 22, "bold"), bg=self.bg_color, fg=self.text_color).pack(pady=20)
 
@@ -63,7 +61,7 @@ class AplicacionEmociones:
                   bg=self.accent_color, fg="white", font=("Arial", 12, "bold"), 
                   cursor="hand2", relief="flat").pack(fill="x", pady=5)
 
-        # salida
+        
         self.frame_resultados = tk.Frame(self.root, bg=self.bg_color)
         self.frame_resultados.pack(fill="both", expand=True, padx=30, pady=20)
 
@@ -80,7 +78,6 @@ class AplicacionEmociones:
             messagebox.showwarning("Alerta", "Escribe algo primero.")
             return
 
-        # AHORA EL PREDICTOR DEVUELVE 2 COSAS: TEXTO Y DICCIONARIO REAL
         resultado_str, data_dict = self.predictor.predecir(texto)
 
         if "Error" in resultado_str:
@@ -89,11 +86,9 @@ class AplicacionEmociones:
 
         self.lbl_resultado.config(text=f"Predicción: {resultado_str}", fg=self.success_color)
         
-        # Pasamos el diccionario REAL al gráfico
         self.actualizar_grafico(data_dict)
     
     def actualizar_grafico(self, data_dict):
-        # Limpiar anterior
         for widget in self.frame_grafico.winfo_children(): widget.destroy()
 
         if not data_dict: return
@@ -116,7 +111,7 @@ class AplicacionEmociones:
         ax.tick_params(colors=self.text_color)
         ax.set_ylim(0, 1.0) # Escala fija de 0 a 100%
         
-        # Ocultar bordes
+        # para ocultar bordes
         ax.spines['bottom'].set_color(self.text_color)
         ax.spines['top'].set_visible(False)
         ax.spines['right'].set_visible(False)
