@@ -46,7 +46,7 @@ def entrenar_modelo():
 
     # 2. Modelo SVM Base con Balanceo
     # - class_weight='balanced': OBLIGATORIO para que las emociones raras no sean ignoradas.
-    svm_base = LinearSVC(dual="auto", random_state=42, class_weight='balanced')
+    svm_base = LinearSVC(dual=False, random_state=42, class_weight='balanced')
 
     # 3. Calibración de Probabilidades
     # - method='isotonic': Generalmente da mejores probabilidades reales con datasets grandes (>10k).
